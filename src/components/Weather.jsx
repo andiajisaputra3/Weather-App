@@ -72,7 +72,7 @@ export default function Weather() {
     }
 
     return (
-        <div className='w-full h-screen flex justify-center items-center bg-image px-5' style={{ backgroundImage }}>
+        <div className='w-full min-h-screen flex justify-center items-center bg-image px-5' style={{ backgroundImage }}>
             <div className="relative w-[400px] h-[500px] bg-black backdrop-blur-sm bg-opacity-20 shadow-lg shadow-black rounded-lg">
                 <div className='px-10 py-5 flex flex-col justify-between h-full'>
                     <Search inputSearch={inputSearch} handlerSearch={handlerSearch} handlerInputSearch={handlerInputSearch} />
